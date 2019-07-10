@@ -1,0 +1,35 @@
+/**
+ * index.scss
+ * - Add any styles you want here!
+ */
+
+body {
+  background: #BAE8DC;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p, form {
+  font-size: 12pt;
+  line-height: 18pt;
+}
+.question {
+  font-size: 20pt;
+  font-weight: bold;
+}
+input#name, input#email, input#number {
+  height: 25px;
+  width: 200px;
+  margin-bottom: 10px;
+}
+textarea {
+  width: 300px;
+  height: 100px;
+}
+button {
+  background: #37A463;
+  color: #fff;
+  display: block;
+  font-size: 1em;
+  height: 40px;
+  width: 200px;
+  margin: 10px 0;
+}
